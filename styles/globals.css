@@ -1,0 +1,97 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+ 
+}
+.dropdown:hover .seta{
+  transform: rotate(180deg);
+}
+.seta{
+  transition: .5s;
+}
+
+.options:hover{
+  font-size: 16px;
+}
+.herobutton:hover{
+box-shadow: none;
+opacity: .9;
+transform: scale(1.075);
+
+}
+.herobutton{
+  transition: .3s;
+  transform: scale(1.1);
+  box-shadow: 0px 1px 1px 1px rgba(59, 131, 246, 0.699);
+}
+#home-quote {
+  background: url(../assets/Images/bg-quote.jpg) center center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+}
+.blockquote{
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+.blockquote-footer{
+      margin-top: -1 rem;
+      margin-bottom: 1 rem;
+      font-size: .875em;
+      color: #6c757d;
+}
+.logo{
+  font-family: 'Dancing Script',
+  cursive;
+}
+.setaCollapse{
+  transition: .3s;
+}
+
+.itemsCollapse:hover{
+transform: scale(1.1);
+
+}
+.secondary1:hover{
+  transform: scale(1.1);
+transform: rotate(-20deg);
+}
+.secondary2:hover{
+  transform: scale(1.1);
+  transform: rotate(20deg);
+}
+.plansCards:hover{
+transform: scale(1.1);
+}
+
+
+.teamCards:hover .ImgTeam{
+transform: scale(1.1);
+opacity: 0.7;
+}
+.ImgTeam{
+  transition: .3s;
+
+}
+.teamCards{
+  border-radius: 20px;
+}
